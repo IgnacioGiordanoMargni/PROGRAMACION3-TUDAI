@@ -1,0 +1,5 @@
+1_ Insertar al principio
+En este caso es o(n) para el array, o(1) para lista vinculada
+2_ O(n) en ambos casos
+3_ Puede ser O(n) en ambos casos, aunque en el caso de la lista depende de la implementacion
+4_O(1) en el caso de una lista, O(n) en el caso de un array
