@@ -211,4 +211,17 @@ public class Tree {
         return value;
     }
 
+    // ejercicio 3
+    public void imprimirNumerosMayoresAK(TreeNode n, Integer k) {
+        if (n.getValue() > k) {
+            System.out.println(n.getValue());
+        }
+        if (n.getDer() != null) {
+            this.imprimirNumerosMayoresAK(n.getDer(), k);
+        }
+        if (n.getIzq() != null) {
+            this.imprimirNumerosMayoresAK(n.getIzq(), k);
+        }
+    }
+
 }

@@ -8,6 +8,7 @@ public class Main {
         tree.insert(root, 7);
         tree.insert(root, 6);
         tree.insert(root, 8);
-        System.out.println(tree.getSumTot(root));
+        // System.out.println(tree.getSumTot(root));
+        // tree.imprimirNumerosMayoresAK(root, 5);
     }
 }
